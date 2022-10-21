@@ -80,7 +80,7 @@ if _name_ == '_main_':
 (https://youtu.be/xnsYKiCjVrI)
 
 ## Result:
-Thus the python program code is developed to move the mobilerobot in the predefined path
+Thus the python program code is developed to move the mobilerobot in the predefined path.
 
 ```
 Mobile Robotics Laboratory
