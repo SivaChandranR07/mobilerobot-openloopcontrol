@@ -73,10 +73,7 @@ if _name_ == '_main_':
     ep_chassis.drive_speed(x=0.2,y=0,z=-13)
     time.sleep(5)
     
-    ep_robot.close()
-    
-    
-     
+    ep_robot.close()  
 ```
 ## MobileRobot Movement Image:
 ![output](./img/robomaster.png)
