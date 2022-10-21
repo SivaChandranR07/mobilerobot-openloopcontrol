@@ -48,9 +48,11 @@ if _name_ == '_main_':
     ep_chassis.move(x=0, y=0, z=-40, xy_speed=0.75).wait_for_completed()
     ep_chassis.drive_speed(x=0.2,y=0,z=12)
     time.sleep(9)
+    
     ep_chassis.move(x=2.4, y=0, z=0, xy_speed=0.80).wait_for_completed()
     ep_chassis.drive_speed(x=0.2,y=0,z=11)
     time.sleep(25)
+    
     ep_chassis.move(x=2.7, y=0, z=0, xy_speed=0.75).wait_for_completed()
     ep_chassis.move(x=0, y=0, z=-47, xy_speed=0.75).wait_for_completed()
     ep_chassis.move(x=1.7, y=0, z=0, xy_speed=0.75).wait_for_completed()
@@ -60,7 +62,9 @@ if _name_ == '_main_':
     ep_chassis.move(x=1.5, y=0, z=0, xy_speed=0.75).wait_for_completed()
     ep_chassis.drive_speed(x=0.2,y=0,z=-13)
     time.sleep(5)
+    
     ep_robot.close()  
+    
     
     
 ```
