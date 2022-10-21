@@ -78,12 +78,9 @@ if _name_ == '_main_':
     ep_robot.close()
     
     
-    
-    
+     
 ```
-
 ## MobileRobot Movement Image:
-
 ![output](./img/robomaster.png)
 ![output](./img/index.jpeg)
 ![output](./img/index1.jpeg)
